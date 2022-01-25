@@ -343,10 +343,10 @@ function shareText(score) {
         return '倒计时多了' + ((deviation_time / 1000) - 20).toFixed(2) + "s";
     }
     SubmitResults();
-    if (score <= 49) return '试着好好练一下？';
-    if (score <= 99) return 'TCL';
-    if (score <= 149) return 'TQL';
-    if (score <= 199) return '您';
+    if (score <= 49) return '团长你在干什么啊团长';
+    if (score <= 99) return '什么嘛，我射得还挺准的嘛';
+    if (score <= 149) return '希望の花';
+    if (score <= 199) return '不要停下来啊';
     return '人？';
 }
 
